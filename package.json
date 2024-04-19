@@ -1,0 +1,23 @@
+{
+  "name": "vox-js",
+  "version": "0.0.1",
+  "main": "src/Server.js",
+  "repository": "https://github.com/Aletropy/VoxJS",
+  "author": "Aletropy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn ./src/Server.ts",
+    "dev-client": "tsc --watch --project ./tsconfig-client.json"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
